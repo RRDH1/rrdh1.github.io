@@ -5,24 +5,6 @@ body {
 
 }
 
-#h1_style {
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-	padding: 20px;
-	font-size: 300%;
-
-}
-
-
-p {
-	font-family: sans-serif;
-	padding: 20px;
-	margin-left: 3px;
-	font-size: 89%;
-}
-
 
 a:link {
 	background-color: black;
@@ -31,6 +13,7 @@ a:link {
 	color:white;
 	border-radius: 15px;
 	border:1px solid white;
+
 }
 
 a:visited {
@@ -60,11 +43,38 @@ a:active {
 	border-radius: 15px;
 }
 
-#list_border {
-	background-color: black;
-	border:1px solid white;
-	height: 50px;
-	padding: 15px;border-radius: 5px;
+.h1_style {
+	max-width: 600px;
+	text-align: center;
+	border-bottom: 1px solid white;
+	margin: 30px auto;
+}
+
+
+.Display_Menu {
+	background-color: white;
+	border-radius: 15px;
+	max-width: 600px;
+	height: 60px;
+	text-align: left;
+	margin: 30px auto;
+	padding: 1px 10px;
+	border-bottom: 2px solid gray;
+	border-left: 2px solid gray;
+}
+
+
+.a_button {
+	position: relative; top: 21px ;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 
 
 }
+
+
+.background_h2_footer {
+
+}
+
